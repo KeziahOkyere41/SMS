@@ -48,8 +48,8 @@
                 <li><a target="_blank" href="https://twitter.com/" class="fab fa-twitter btn-twitter"></a></li>
             </ul>
         </div>
-        <p class="text-center">Not registered?
-            <a class="btn-link text-primary" href="page-register.html">Register</a>
+        <p class="text-center">Already have an account?
+            <a class="btn-link text-primary" wire:navigate href="{{ route('login') }}">Login</a>
         </p>
     </form>
 </div>

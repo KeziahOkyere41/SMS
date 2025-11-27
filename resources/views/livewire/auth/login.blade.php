@@ -45,7 +45,7 @@
             </ul>
         </div>
         <p class="text-center">Not registered?
-            <a class="btn-link text-primary" href="page-register.html">Register</a>
+            <a class="btn-link text-primary" wire:navigate href="{{route('register')}}">Register</a>
         </p>
     </form>
 </div>
